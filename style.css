@@ -39,6 +39,7 @@ body {
     padding-bottom: 20px;
     padding-left: 20px;
     background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
 }
 
 .overlay-image {
@@ -49,7 +50,7 @@ body {
     top: 0;
     background-position: center;
     background-size: cover;
-    opacity: 20;
+    opacity: 0.9;
 }
 
 .btn {
