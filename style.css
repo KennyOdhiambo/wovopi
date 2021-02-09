@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+}
+
+.navbar {
+    position: absolute;
+    padding-bottom: 50px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+
+/*gradient {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 60, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);*/
+
+
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-item {
+    height: 50rem;
+    background: #000000;
+    color: white;
+    position: relative;
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+/*.item {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
