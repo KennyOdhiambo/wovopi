@@ -6,7 +6,21 @@ body {
     font-weight: 300;
     line-height: 24px;
     overflow-x: hidden;
-    background-color: #99CCFF;
+    background-color: ;
+}
+
+.parallax {
+    background-image: url(images/covid/cov1.jpeg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about {
+    background-color: #e9f5f8;
+    opacity: 80%;
 }
 
 .top-bar {
@@ -134,3 +148,29 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }*/
+
+#contact {
+    font-weight: bold;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: darkgreen;
+    color: white;
+    margin-right: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#contact a {
+    color: lightskyblue;
+}
+
+footer {
+    text-align: center;
+    background: white;
+    color: blue;
+    margin-left: 375px;
+    margin-right: 375px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
