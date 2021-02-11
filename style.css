@@ -174,3 +174,8 @@ footer {
     font-size: 15px;
     font-weight: bold;
 }
+
+#pro {
+    background-color: #e9f5f8;
+    opacity: 80%;
+}
