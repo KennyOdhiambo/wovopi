@@ -52,20 +52,16 @@ body {
 }
 
 .nav-item {
-    padding: .6rem;
+    padding: .5rem;
 }
 
 .nav-link {
-    color: #5b5555 !important;
+    color: blue !important;
 }
 
 .nav-link.active,
 .nav-link:hover {
-    color: blue !important;
-}
-
-.nav-link:focus {
-    color: blue;
+    color: green !important;
 }
 
 p.title {
@@ -115,7 +111,9 @@ p.title {
     text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
 }
 
-.inner-container a {}
+.inner-container p {
+    text-transform: none;
+}
 
 .overlay-image {
     position: absolute;
@@ -161,6 +159,12 @@ p.title {
     background-size: cover;
 }*/
 
+.cont {
+    width: 60% !important;
+    position: relative;
+    left: 20%;
+}
+
 #contact {
     font-weight: bold;
     margin-left: 30px;
@@ -176,8 +180,6 @@ footer {
     text-align: center;
     background: white;
     color: blue;
-    margin-left: 375px;
-    margin-right: 375px;
     height: 30px;
     font-size: 15px;
     font-weight: bold;
