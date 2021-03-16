@@ -6,7 +6,7 @@ body {
     font-weight: 300;
     line-height: 24px;
     overflow-x: hidden;
-    background-color: ;
+    background-color: #e9f5f8;
 }
 
 
@@ -88,10 +88,13 @@ p.title {
 }
 
 .carousel-item {
-    height: 50rem;
+    height: 40%;
+    width: 90%;
     background: #000000;
     color: white;
-    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* position: relative; */
 }
 
 .inner-container {
@@ -137,6 +140,11 @@ p.title {
 
 .fixed-background {
     padding: 10rem 0;
+}
+
+.about-text {
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 
