@@ -6,7 +6,7 @@ body {
     font-weight: 300;
     line-height: 24px;
     overflow-x: hidden;
-    background-color: #e9f5f8;
+    background-color: white;
 }
 
 
@@ -45,10 +45,12 @@ body {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, 0.9);
     margin-right: 0%;
     z-index: 1;
+    background-color: white;
 }
 
 .navbar-nav {
     margin-top: 30px;
+    background-color: white;
 }
 
 .nav-item {
@@ -68,6 +70,7 @@ p.title {
     color: green;
     margin-top: 3rem;
     font-size: 1.5em;
+    background-color: white;
 }
 
 .logo {
@@ -147,6 +150,11 @@ p.title {
     padding-right: 15%;
 }
 
+.jumbotron {
+    background-color: lightblue;
+    color: white;
+}
+
 
 /*.item {
     position: absolute;
@@ -185,16 +193,15 @@ p.title {
 
 #clogo {
     float: left;
-    padding-left: 30%;
-    padding-top: 5%;
-    padding-right: 0%;
-    margin-right: 0%;
+    padding-left: 10%;
 }
 
-#clogo.img {
-    height: 100%;
-    width: 100%;
+#logoc {
+    height: 20%;
+    width: 20%;
     border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 70%;
 }
 
 #cinfor {
