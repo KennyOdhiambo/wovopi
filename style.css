@@ -180,8 +180,26 @@ p.title {
     background-color: darkgreen;
     color: white;
     margin-right: 30px;
-    text-align: center;
     margin-top: 70px;
+}
+
+#clogo {
+    float: left;
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+
+#clogo.img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#cinfor {
+    margin-left: 0%;
+    padding-left: 45%;
 }
 
 footer {
